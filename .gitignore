@@ -1,0 +1,9 @@
+metastore_db
+node_modules
+logs/*.log
+.tmp
+.log
+dump.rdb
+data/*
+npm-debug.log
+*.tar.gz
