@@ -3,8 +3,6 @@
 * 实现智能推荐
 * 实现情感分析
 * 实现量化交易分析
-* 实现量化
-*
 
 ### 离线分析系统安装
 ```text
@@ -12,6 +10,11 @@
 2 安装Spark 略
 3 安装scala 略
 4 安装SparkR 略
+  * library(devtools)
+  * install_github("amplab-extras/SparkR-pkg", subdir="pkg")
+  * library(SparkR)
+  * sc <- sparkR.init(master="local")
+  * sparkR.stop()
 ```
 
 ### 在线计算系统安装
