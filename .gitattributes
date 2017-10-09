@@ -1,0 +1,4 @@
+*.js linguist-language=R
+*.node linguist-language=R
+*.mk linguist-language=R
+*.md linguist-language=R
